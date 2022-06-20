@@ -11,14 +11,35 @@ class App extends Component {
     darkModeIsActive: false,
     language: "pl",
   }
+
+  handleChangeDayNightMode = () => {
+    this.setState(prevState =>({
+      darkModeIsActive: !prevState.darkModeIsActive
+    }))
+  }
+
+  handleChangeLanguage = () => {
+    if (this.state.language === "pl"){
+      this.setState({
+        language: "en",
+      })
+    } else {
+      this.setState({
+        language: "pl",
+      })
+    }
+  }
+
+
   render(){
+    const {darkModeIsActive, language} = this.state
   return (
     <>
-      <Menu />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
+      <Menu changeColor={this.handleChangeDayNightMode} changeLanguage={this.handleChangeLanguage} darkmode={darkModeIsActive} lang={language} />
+      <About darkmode={darkModeIsActive} lang={language}/>
+      <Experience darkmode={darkModeIsActive} lang={language}/>
+      <Portfolio darkmode={darkModeIsActive} lang={language}/>
+      <Contact darkmode={darkModeIsActive} lang={language}/>
     </>
   );
 }}
