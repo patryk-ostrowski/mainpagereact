@@ -1,4 +1,5 @@
 import "./About.css";
+<<<<<<< HEAD
 import photo from "./me.png";
 
 const AboutPl = () => (
@@ -37,6 +38,18 @@ const About = (props) => (
     
 
 
+=======
+import AboutEn from "./About_en/About_en";
+import AboutPl from "./About_pl/About_pl"
+
+const About = (props) => {
+  return (
+    <div className={props.darkmode? "about" : "about_dark"}>
+       {props.lang==="en"? <AboutPl />: <AboutEn/>}
+    </div>
+  )
+} 
+>>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
   
 
 

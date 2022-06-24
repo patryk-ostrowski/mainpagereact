@@ -1,11 +1,16 @@
 .Menu {
   display: flex;
+<<<<<<< HEAD
   justify-content: right;
   flex-direction: row;
+=======
+  flex-direction: row-reverse;
+>>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
   align-items: center;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+<<<<<<< HEAD
   height: 5vh;
 }
 
@@ -34,11 +39,21 @@
 
 .menu__buttons--nav>a:last-child {
   padding-right: 35px;
+=======
+  padding: 10px;
+  height: 5vh;
+
+>>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
 }
 
 
 button {
+<<<<<<< HEAD
   padding: 3px;
+=======
+  margin: 2px;
+  padding: 2px;
+>>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
   width: 35px;
   height: 35px;
   text-align: center;
