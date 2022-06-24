@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .experience,
 .experience_dark {
   display: flex;
@@ -46,9 +45,4 @@ ul>li {
 article {
   width: 230px;
   height: 300px;
-=======
-.experience {
-  text-align: center;
-  height: 100vh;
->>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
 }

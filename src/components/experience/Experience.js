@@ -1,5 +1,4 @@
 import "./Experience.css";
-<<<<<<< HEAD
 import html5 from "./img/html5.png";
 import css3 from "./img/css3.png";
 import jscript from "./img/js.png";
@@ -96,13 +95,5 @@ const Experience = (props) => (
   </section>
 )
 
-=======
-
-const Experience = () => {
-  return (
-    <div className='experience'>Hi!</div>
-  )
-}
->>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
 
 export default Experience;

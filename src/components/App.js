@@ -35,10 +35,7 @@ class App extends Component {
     const {darkModeIsActive, language} = this.state
   return (
     <>
-<<<<<<< HEAD
       <div id="up"></div>
-=======
->>>>>>> 2d36e0e63db3f8aef80beef2679a130ead1d8f7a
       <Menu changeColor={this.handleChangeDayNightMode} changeLanguage={this.handleChangeLanguage} darkmode={darkModeIsActive} lang={language} />
       <About darkmode={darkModeIsActive} lang={language}/>
       <Experience darkmode={darkModeIsActive} lang={language}/>
