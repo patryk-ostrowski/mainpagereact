@@ -1,0 +1,27 @@
+body,
+html {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {}

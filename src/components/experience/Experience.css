@@ -1,0 +1,48 @@
+.experience,
+.experience_dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.experience {
+  background-color: rgba(12, 75, 192, 0.774);
+}
+
+.experience_dark {
+  background-color: gray;
+}
+
+.experience>div,
+.experience_dark>div {
+  text-align: center;
+  padding: 15px;
+}
+
+.experience>div:first-child,
+.experience_dark>div:first-child {
+  padding-left: 110px;
+}
+
+.experience>div:last-child,
+.experience_dark>div:last-child {
+  padding-right: 110px;
+}
+
+.experience__content--img {
+  height: 150px;
+}
+
+ul>li {
+  padding: 10px;
+}
+
+.experience__content--img img {
+  max-width: 140px;
+}
+
+article {
+  width: 230px;
+  height: 300px;
+}
