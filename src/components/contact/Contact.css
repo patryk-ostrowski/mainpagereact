@@ -1,4 +1,56 @@
-.contact {
-  text-align: center;
+.contact,
+.contact_dark,
+.contact__content,
+.contact__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact,
+.contact_dark {
   height: 100vh;
+}
+
+.contact__content,
+.contact__media {
+  flex-direction: column;
+}
+
+.contact__content img {
+  width: 350px;
+}
+
+.contact__content h3 {
+  text-align: center;
+
+}
+
+.contact__content a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact__content p {
+  margin-left: 20px;
+}
+
+.contact__media img {
+  width: 64px;
+}
+
+.contact h2,
+.contact_dark h2 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 90vh;
 }

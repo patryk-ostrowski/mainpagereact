@@ -37,7 +37,7 @@ const Menu = (props) => {
         </button>
       </div>
       <div className="menu__buttons--nav">
-        {props.lang === "pl"? <MenuEn/> : <MenuPl/>}
+        {props.lang === "pl"? <MenuPl/> : <MenuEn/>}
       </div>
     </div>
   )

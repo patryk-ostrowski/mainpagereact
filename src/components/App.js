@@ -40,7 +40,7 @@ class App extends Component {
       <About darkmode={darkModeIsActive} lang={language}/>
       <Experience darkmode={darkModeIsActive} lang={language}/>
       <Portfolio darkmode={darkModeIsActive} lang={language}/>
-      <Contact darkmode={darkModeIsActive} lang={language}/>
+      <Contact darkmode={darkModeIsActive} />
     </>
   );
 }}

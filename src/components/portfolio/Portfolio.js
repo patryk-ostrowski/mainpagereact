@@ -48,7 +48,6 @@ const PortfolioPl = () => (
 )
 
 
-
 const PortfolioEn = () => (
   <>
     <h1 className="portfolio__title">My Projects</h1>
@@ -62,7 +61,7 @@ const PortfolioEn = () => (
         </a>
         <ImageHtmlCssJs/> 
         <h3>Responsibility on smartphone - horizontal and vertical</h3>
-        <p>My first site from scratch, without template generator. Zastosowałem różne właściwości pozycjonowania elementów oraz animacji przycisków.</p>       
+        <p>My first site from scratch, without template generator. Used Grid and Flexbox to positioning elements. Maked animations for buttons.</p>       
       </article>
     </div>
     <div className="portfolio__main">
@@ -75,7 +74,7 @@ const PortfolioEn = () => (
         </a>
         <ImageHtmlCssJs/> 
         <h3>Responsibility on smartphone - horizontal</h3>
-        <p>Prosty symulator automatu z kasyna. W klasie Game zastosowałem konstruktor, który pozwala na zmianę tabeli, z której odbywać się będzie losowanie, co może ułatwić lub utrudnić grę po osiągnięciu pewnego pułapu pieniędzy.</p>
+        <p>Simply cassino machine simulator. Used constructor in class Game for changing random roller generator. For some cash value it could change lucky to better or worse.</p>
       </article>
     </div>
   </>
@@ -84,7 +83,7 @@ const PortfolioEn = () => (
 
 const Portfolio = (props) => (
   <section id="portfolio" className={props.darkmode? "portfolio" : "portfolio_dark"}>
-    {props.lang==="en"? <PortfolioPl />: <PortfolioEn/>}
+    {props.lang==="en"? <PortfolioEn />: <PortfolioPl/>}
   </section>
 )
 

@@ -30,7 +30,7 @@ const AboutEn = () => (
 
 const About = (props) => (
   <section id="about" className={props.darkmode? "about" : "about_dark"}>
-    {props.lang==="en"? <AboutPl />: <AboutEn/>}
+    {props.lang==="en"? <AboutEn />: <AboutPl/>}
   </section>
 )
 
