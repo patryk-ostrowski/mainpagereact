@@ -21,7 +21,5 @@ li {
 a {
   font-size: 20px;
   text-decoration: none;
-  color: orangered;
+  color: black;
 }
-
-a:hover {}

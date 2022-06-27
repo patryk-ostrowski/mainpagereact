@@ -1,12 +1,12 @@
 import "./Menu.css";
-import moon from "./icons/moon.png";
-import sun from "./icons/sun.png";
+import moon from "../img/icons/moon.png";
+import sun from "../img/icons/sun.png";
 
 const MenuPl = () => (
   <>
     <a href="#up">O mnie</a>
     <a href="#experience">Doświadczenie</a>
-    <a href="#portfolio">Portfolio</a>
+    <a href="#portfolio">Projekty</a>
     <a href="#contact">Kontakt</a>
   </>
 )
@@ -15,7 +15,7 @@ const MenuEn = () => (
   <>
     <a href="#up">About me</a>
     <a href="#experience">Experience</a>
-    <a href="#portfolio">Portfolio</a>
+    <a href="#portfolio">Projects</a>
     <a href="#contact">Contact</a>
   </>
 )

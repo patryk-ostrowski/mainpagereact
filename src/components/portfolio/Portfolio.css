@@ -1,4 +1,48 @@
-.portfolio {
-  text-align: center;
+.portfolio,
+.portfolio_dark {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 100vh;
+}
+
+.portfolio__title {
+  position: absolute;
+  font-size: 30px;
+  margin-bottom: 75vh;
+
+}
+
+.portfolio__content--img img {
+  width: 500px;
+}
+
+.portfolio article,
+.portfolio_dark article {
+  text-align: center;
+  width: 500px;
+  height: 450px;
+}
+
+.portfolio__icons {
+  justify-content: center;
+  display: flex;
+}
+
+.portfolio__icons img {
+  width: 50px;
+  padding: 5px;
+}
+
+.portfolio h2,
+.portfolio_dark h2 {
+  margin: 15px 0;
+  font-size: 24px;
+}
+
+.portfolio p,
+.portfolio_dark p {
+  padding: 5px;
+  text-align: justify;
+  line-height: 25px;
 }

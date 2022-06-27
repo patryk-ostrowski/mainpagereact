@@ -1,23 +1,24 @@
 import "./Experience.css";
-import html5 from "./img/html5.png";
-import css3 from "./img/css3.png";
-import jscript from "./img/js.png";
-import react from "./img/react.png";
-import typescrpit from "./img/typescrpit.png";
-import angular from "./img/angular.png";
+import html5 from "../img/html5.png";
+import css3 from "../img/css3.png";
+import jscript from "../img/js.png";
+import react from "../img/react.png";
+import typescrpit from "../img/typescrpit.png";
+import angular from "../img/angular.png";
 
 const ExperiencePl = () => (
   <>
+    <h1 className="experience__title">Obecne doświadczenie</h1>
     <div className="html">
       <article>
         <div className="experience__content--img">
           <img src={html5} alt="HTML5" />
         </div>
-        <h1>HTML5</h1>
+        <h2>HTML5</h2>
         <ul>
-          <li>uporządkowana struktura znaczników w pliku</li>
-          <li>stosowanie klas i identyfikatorów</li>
-          <li>ułatwianie dostępu - elementy klikalne jako przyciski</li>
+          <li>Uporządkowana struktura znaczników w pliku</li>
+          <li>Stosowanie klas i identyfikatorów</li>
+          <li>Metodologia BEM</li>
         </ul>
       </article>
     </div>
@@ -26,10 +27,11 @@ const ExperiencePl = () => (
         <div className="experience__content--img">
           <img src={css3} alt="CSS3" />
         </div>
-        <h1>CSS</h1>
+        <h2>CSS</h2>
           <ul>
-            <li>pozycjonowanie elementów za pomocą <span>Grid</span> i <span>Flexbox</span></li>
-            <li>animacje z użyciem <span>Transition</span> i <span>Keyframes</span></li>
+            <li>Pozycjonowanie elementów za pomocą Grid i Flexbox</li>
+            <li>Animacje z użyciem Transition i Keyframes</li>
+            <li><span>SCSS - zaplanowana nauka w przyszłości</span></li>
           </ul>
       </article>
     </div>
@@ -38,11 +40,10 @@ const ExperiencePl = () => (
         <div className="experience__content--img">
           <img src={jscript} alt="JS" />
         </div>
-        <h1>JavaScript</h1>
+        <h2>JavaScript</h2>
           <ul>
-            <li>pobieranie i obsługa przycisków na stronie</li>
-            <li>formatowanie elementów strony</li>
-            <li>tworzenie klas i konstruktorów</li>
+            <li>Formatowanie i obsługa elementów za pomocą DOM</li>
+            <li>Tworzenie klas i konstruktorów</li>
           </ul>
       </article>
     </div>
@@ -51,9 +52,10 @@ const ExperiencePl = () => (
         <div className="experience__content--img">
           <img src={react} alt="React" />
         </div>
-        <h1>React</h1>
+        <h2>React</h2>
           <ul>
-            <li>pobieranie i obsługa przycisków na stronie</li>
+            <li>Budowanie elementów strony za pomocą modułów</li>
+            <li>Przekazywanie elementów przez props</li>
             <li>React Router V6</li>
           </ul>
       </article>
@@ -63,10 +65,10 @@ const ExperiencePl = () => (
         <div className="experience__content--img">
           <img src={typescrpit} alt="TS" />
         </div>
-        <h1>TypeScrpit</h1>
+        <h2>TypeScrpipt</h2>
           <ul>
-            <li>pobieranie i obsługa przycisków na stronie</li>
-            <li>formatowanie elementów strony</li>
+            <li>Typowanie zmiennych</li>
+            <li><span>Dalsze zdobywanie wiedzy</span></li>
           </ul>
       </article>
     </div>
@@ -75,10 +77,9 @@ const ExperiencePl = () => (
         <div className="experience__content--img">
           <img src={angular} alt="Angular" />
         </div>
-        <h1>Angular</h1>
+        <h2><span>Angular</span></h2>
           <ul>
-            <li>pobieranie i obsługa przycisków na stronie</li>
-            <li>formatowanie elementów strony</li>
+            <li><span>Zaplanowana nauka w przyszłości</span></li>
           </ul>
       </article>
     </div>

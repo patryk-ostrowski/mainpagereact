@@ -1,5 +1,6 @@
 import "./About.css";
-import photo from "./me.png";
+import photo from "../img/me.png";
+
 
 const AboutPl = () => (
   <div className="about_content">
@@ -27,17 +28,10 @@ const AboutEn = () => (
 )
 
 
-
 const About = (props) => (
   <section id="about" className={props.darkmode? "about" : "about_dark"}>
     {props.lang==="en"? <AboutPl />: <AboutEn/>}
   </section>
 )
-
-    
-
-
-  
-
 
 export default About;

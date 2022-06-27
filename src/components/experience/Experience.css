@@ -1,7 +1,7 @@
 .experience,
 .experience_dark {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
 }
@@ -14,20 +14,31 @@
   background-color: gray;
 }
 
+.experience__title {
+  position: absolute;
+  font-size: 30px;
+  margin-bottom: 75vh;
+}
+
+
 .experience>div,
 .experience_dark>div {
   text-align: center;
-  padding: 15px;
 }
 
-.experience>div:first-child,
-.experience_dark>div:first-child {
-  padding-left: 110px;
+.experience span,
+.experience_dark span {
+  color: rgb(85, 82, 82);
+}
+
+.experience .html,
+.experience_dark .html {
+  padding-left: 25px;
 }
 
 .experience>div:last-child,
 .experience_dark>div:last-child {
-  padding-right: 110px;
+  padding-right: 25px;
 }
 
 .experience__content--img {
@@ -36,13 +47,19 @@
 
 ul>li {
   padding: 10px;
+  font-size: 20px;
 }
 
 .experience__content--img img {
   max-width: 140px;
 }
 
-article {
-  width: 230px;
-  height: 300px;
+.angular img {
+  opacity: .4;
+}
+
+.experience article,
+.experience_dark article {
+  width: 250px;
+  height: 350px;
 }
