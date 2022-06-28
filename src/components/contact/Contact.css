@@ -5,11 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .contact,
 .contact_dark {
   height: 100vh;
+  background-color: rgba(12, 75, 192, 0.774);
+}
+
+.contact_dark {
+  background-color: gray;
 }
 
 .contact__content,
@@ -18,7 +24,7 @@
 }
 
 .contact__content img {
-  width: 350px;
+  width: 300px;
 }
 
 .contact__content h3 {
@@ -30,6 +36,11 @@
   display: flex;
   align-items: center;
   padding: 10px;
+  font-weight: bold;
+}
+
+.contact__content a:hover {
+  opacity: .7;
 }
 
 .contact__content p {
@@ -44,6 +55,7 @@
 .contact_dark h2 {
   margin-bottom: 30px;
   margin-top: 0;
+  font-size: 30px;
 }
 
 .footer {
@@ -53,4 +65,11 @@
   align-items: center;
   text-align: center;
   margin-top: 90vh;
+}
+
+.contact a,
+.contact_dark a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
 }

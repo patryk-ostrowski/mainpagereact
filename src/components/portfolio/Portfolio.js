@@ -41,7 +41,7 @@ const PortfolioPl = () => (
           </a>
           <ImageHtmlCssJs/> 
           <h3>Responsywność na smartfonie - w poziomie</h3>
-          <p>Prosty symulator automatu z kasyna. W klasie Game zastosowałem konstruktor, który pozwala na zmianę tabeli, z której odbywać się będzie losowanie, co może ułatwić lub utrudnić grę po osiągnięciu pewnego pułapu pieniędzy.</p>
+          <p>Prosty symulator automatu z kasyna. W klasie Game zastosowałem konstruktor, który zmienia tabelę losującą po osiągnięciu przez gracza pewną ilośc pieniędzy, co może ułatwić lub utrudnić grę.</p>
         </article>
       </div>
     </>
@@ -74,7 +74,7 @@ const PortfolioEn = () => (
         </a>
         <ImageHtmlCssJs/> 
         <h3>Responsibility on smartphone - horizontal</h3>
-        <p>Simply cassino machine simulator. Used constructor in class Game for changing random roller generator. For some cash value it could change lucky to better or worse.</p>
+        <p>Simply cassino machine simulator. Used constructor in class Game for changing random roller generator. For some player cash value it could change lucky to better or worse.</p>
       </article>
     </div>
   </>

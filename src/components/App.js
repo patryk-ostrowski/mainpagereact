@@ -34,14 +34,14 @@ class App extends Component {
   render(){
     const {darkModeIsActive, language} = this.state
   return (
-    <>
+    <div className={darkModeIsActive ? "body__site" : "body__site--dark"}>
       <div id="up"></div>
       <Menu changeColor={this.handleChangeDayNightMode} changeLanguage={this.handleChangeLanguage} darkmode={darkModeIsActive} lang={language} />
       <About darkmode={darkModeIsActive} lang={language}/>
       <Experience darkmode={darkModeIsActive} lang={language}/>
       <Portfolio darkmode={darkModeIsActive} lang={language}/>
       <Contact darkmode={darkModeIsActive} />
-    </>
+    </div>
   );
 }}
 

@@ -6,6 +6,12 @@
   height: 100vh;
 }
 
+.portfolio_dark {
+  background-color: rgb(47, 47, 47);
+  color: rgb(216, 216, 216);
+
+}
+
 .portfolio__title {
   position: absolute;
   font-size: 30px;
@@ -15,6 +21,11 @@
 
 .portfolio__content--img img {
   width: 500px;
+}
+
+.portfolio a:hover,
+.portfolio_dark a:hover {
+  opacity: .7;
 }
 
 .portfolio article,
@@ -34,6 +45,7 @@
   padding: 5px;
 }
 
+
 .portfolio h2,
 .portfolio_dark h2 {
   margin: 15px 0;
@@ -45,4 +57,23 @@
   padding: 5px;
   text-align: justify;
   line-height: 25px;
+}
+
+.portfolio a,
+.portfolio_dark a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_dark a {
+  color: white;
+}
+
+.portfolio a:hover {
+  color: rgba(0, 0, 0, .5);
+}
+
+.portfolio_dark a:hover {
+  color: rgb(216, 216, 216);
 }

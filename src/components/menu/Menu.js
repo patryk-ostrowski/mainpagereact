@@ -20,16 +20,12 @@ const MenuEn = () => (
   </>
 )
 
-
-const Menu = (props) => {
-  console.log(props.darkmode);
-  console.log(props.lang);
-  return (
-    <div className='Menu' id="menu">
+const Menu = (props) => (
+    <div className={props.darkmode? "menu" : "menu_dark"} id="menu">
       <div className="menu__buttons--options">
         <button 
           className="dayNightButton" 
-          onClick={props.changeColor}>{props.darkmode ? <img src={sun} alt="O" /> : <img src={moon} alt="C" />}
+          onClick={props.changeColor}>{props.darkmode ? <img src={moon} alt="O" /> : <img src={sun} alt="C" />}
         </button>
         <button 
           className="languageButton" 
@@ -41,6 +37,5 @@ const Menu = (props) => {
       </div>
     </div>
   )
-}
 
 export default Menu;

@@ -1,11 +1,13 @@
 .about,
 .about_dark {
+  background-color: white;
   text-align: center;
   height: 95vh;
 }
 
-.about_dark {
-  background-color: rgb(48, 47, 47);
+.about_dark,
+.about_dark a {
+  background-color: rgb(47, 47, 47);
   color: rgb(216, 216, 216);
 }
 
