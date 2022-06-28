@@ -118,3 +118,23 @@
 
   }
 }
+
+@media all and (max-width: 600px) {
+
+  .portfolio__title {
+    margin: 50px 0 40px 0;
+  }
+
+  .portfolio h2,
+  .portfolio_dark h2 {
+    font-size: 20px;
+  }
+
+  .portfolio article,
+  .portfolio_dark article {
+    text-align: center;
+    width: auto;
+    height: 450px;
+    margin: 40px;
+  }
+}

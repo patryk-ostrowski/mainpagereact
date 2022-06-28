@@ -133,3 +133,12 @@ ul>li {
   }
 
 }
+
+@media all and (max-width: 600px) {
+
+  .experience h2,
+  .experience_dark h2 {
+    font-size: 20px;
+  }
+
+}

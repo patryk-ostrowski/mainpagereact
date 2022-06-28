@@ -96,4 +96,9 @@
     font-size: 18px;
   }
 
+  .contact h2,
+  .contact_dark h2 {
+    font-size: 20px;
+  }
+
 }

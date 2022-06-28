@@ -60,12 +60,18 @@
 }
 
 @media all and (max-width: 1450px) {
+
+  .about,
+  .about_dark {
+    height: auto;
+  }
+
   .about_content {
     display: flex;
-    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
   }
 
   .about_content #photo_me img {
@@ -85,9 +91,17 @@
     font-size: 22px;
   }
 
+  .about_content {
+    margin-top: 100px;
+  }
+
 }
 
 @media all and (max-width: 1000px) {
+  .about_content {
+    margin-top: 80px;
+  }
+
 
   .about_content #photo_me img {
     width: 120px;
@@ -100,8 +114,11 @@
 
 }
 
-@media all and (max-height: 550px) {
+@media all and (max-width: 550px) {
 
+  .about_content {
+    margin-top: 50px;
+  }
 
   .about_content #photo_me img {
     width: 120px;
