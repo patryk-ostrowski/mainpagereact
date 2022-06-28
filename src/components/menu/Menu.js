@@ -21,11 +21,11 @@ const MenuEn = () => (
 )
 
 const Menu = (props) => (
-    <div className={props.darkmode? "menu" : "menu_dark"} id="menu">
+    <div className={props.darkmode? "menu_dark" : "menu"} id="menu">
       <div className="menu__buttons--options">
         <button 
           className="dayNightButton" 
-          onClick={props.changeColor}>{props.darkmode ? <img src={moon} alt="O" /> : <img src={sun} alt="C" />}
+          onClick={props.changeColor}>{props.darkmode ? <img src={sun} alt="O" /> : <img src={moon} alt="C" />}
         </button>
         <button 
           className="languageButton" 

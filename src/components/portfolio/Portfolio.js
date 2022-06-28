@@ -82,7 +82,7 @@ const PortfolioEn = () => (
 
 
 const Portfolio = (props) => (
-  <section id="portfolio" className={props.darkmode? "portfolio" : "portfolio_dark"}>
+  <section id="portfolio" className={props.darkmode? "portfolio_dark" : "portfolio"}>
     {props.lang==="en"? <PortfolioEn />: <PortfolioPl/>}
   </section>
 )

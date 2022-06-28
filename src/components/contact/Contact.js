@@ -7,7 +7,7 @@ import github from "../img/icons/github.png";
 const Contact = (props) => {
   return (
     <>
-    <section id="contact" className={props.darkmode? "contact" : "contact_dark"}>
+    <section id="contact" className={props.darkmode? "contact_dark" : "contact"}>
       <div className="contact__content">
         <img src={logo} alt="logo" />
         <h2>WEB-DEV Patryk Ostrowski</h2>

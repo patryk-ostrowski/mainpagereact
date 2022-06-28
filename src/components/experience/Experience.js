@@ -167,7 +167,7 @@ const ExperienceEn = () => (
 )
 
 const Experience = (props) => (
-  <section id="experience" className={props.darkmode? "experience" : "experience_dark"}>
+  <section id="experience" className={props.darkmode? "experience_dark" : "experience"}>
     {props.lang==="en"? <ExperienceEn />: <ExperiencePl/>}
   </section>
 )
