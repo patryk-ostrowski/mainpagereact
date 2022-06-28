@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mainpagereact/static/css/main.73187fc0.css",
+    "main.js": "/mainpagereact/static/js/main.06839d8e.js",
+    "static/media/cassino.jpg": "/mainpagereact/static/media/cassino.ee306ff12d8029cac151.jpg",
+    "static/media/main--old.jpg": "/mainpagereact/static/media/main--old.bcdd94ea91252c84f7b4.jpg",
+    "static/media/me.png": "/mainpagereact/static/media/me.21a9db1493f4a663865b.png",
+    "static/media/typescrpit.png": "/mainpagereact/static/media/typescrpit.c3297b03f2a0a08d4dab.png",
+    "static/media/react.png": "/mainpagereact/static/media/react.9c86169cd1e60bc2face.png",
+    "static/media/logo.png": "/mainpagereact/static/media/logo.54b6e60b65d9166e1e05.png",
+    "static/media/css3.png": "/mainpagereact/static/media/css3.463e319bad8e0edf1ef7.png",
+    "static/media/html5.png": "/mainpagereact/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/mainpagereact/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/mainpagereact/index.html",
+    "main.73187fc0.css.map": "/mainpagereact/static/css/main.73187fc0.css.map",
+    "main.06839d8e.js.map": "/mainpagereact/static/js/main.06839d8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73187fc0.css",
+    "static/js/main.06839d8e.js"
+  ]
+}
