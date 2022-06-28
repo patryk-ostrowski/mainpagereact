@@ -14,7 +14,7 @@ class App extends Component {
 
   handleChangeDayNightMode = () => {
     this.setState(prevState =>({
-      darkModeIsActive: !prevState.darkModeIsActive
+      darkModeIsActive: !prevState.darkModeIsActive,
     }))
   }
 

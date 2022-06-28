@@ -4,14 +4,14 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-}
-
-.experience {
-  background-color: rgba(12, 75, 192, 0.774);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(247, 248, 251, 1) 29%, rgba(204, 210, 229, 1) 49%, rgba(83, 141, 210, 1) 100%);
 }
 
 .experience_dark {
-  background-color: gray;
+  background: rgb(60, 60, 60);
+  background: linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(52, 52, 52, 1) 32%, rgba(39, 39, 39, 1) 72%, rgba(29, 28, 28, 1) 100%);
+  color: rgb(216, 216, 216);
 }
 
 .experience__title {
@@ -28,7 +28,7 @@
 
 .experience span,
 .experience_dark span {
-  color: rgb(85, 82, 82);
+  color: rgb(92, 90, 90);
 }
 
 .experience .html,

@@ -4,7 +4,7 @@ import css3 from "../img/css3.png";
 import jscript from "../img/js.png";
 import react from "../img/react.png";
 import typescrpit from "../img/typescrpit.png";
-import angular from "../img/angular.png";
+// import angular from "../img/angular.png";
 
 const ExperiencePl = () => (
   <>
@@ -72,7 +72,7 @@ const ExperiencePl = () => (
           </ul>
       </article>
     </div>
-    <div className="angular">
+    {/* <div className="angular">
       <article>
         <div className="experience__content--img">
           <img src={angular} alt="Angular" />
@@ -82,7 +82,7 @@ const ExperiencePl = () => (
             <li><span>Zaplanowana nauka w przyszłości</span></li>
           </ul>
       </article>
-    </div>
+    </div> */}
   </>
 )
 
@@ -152,7 +152,7 @@ const ExperienceEn = () => (
           </ul>
       </article>
     </div>
-    <div className="angular">
+    {/* <div className="angular">
       <article>
         <div className="experience__content--img">
           <img src={angular} alt="Angular" />
@@ -162,7 +162,7 @@ const ExperienceEn = () => (
             <li><span>Will be learning in future</span></li>
           </ul>
       </article>
-    </div>
+    </div> */}
   </>
 )
 

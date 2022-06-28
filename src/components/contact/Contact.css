@@ -5,17 +5,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contact,
 .contact_dark {
   height: 100vh;
-  background-color: rgba(12, 75, 192, 0.774);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(247, 248, 251, 1) 29%, rgba(204, 210, 229, 1) 49%, rgba(83, 141, 210, 1) 100%);
 }
 
 .contact_dark {
-  background-color: gray;
+  background: rgb(60, 60, 60);
+  background: linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(52, 52, 52, 1) 32%, rgba(39, 39, 39, 1) 72%, rgba(29, 28, 28, 1) 100%);
+  color: rgb(216, 216, 216);
 }
 
 .contact__content,
@@ -72,4 +74,8 @@
   font-size: 25px;
   text-decoration: none;
   color: black;
+}
+
+.contact_dark a {
+  color: rgb(216, 216, 216);
 }

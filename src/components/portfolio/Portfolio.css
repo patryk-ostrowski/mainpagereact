@@ -4,12 +4,14 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(247, 248, 251, 1) 29%, rgba(204, 210, 229, 1) 49%, rgba(83, 141, 210, 1) 100%);
 }
 
 .portfolio_dark {
-  background-color: rgb(47, 47, 47);
+  background: rgb(60, 60, 60);
+  background: linear-gradient(180deg, rgba(60, 60, 60, 1) 0%, rgba(52, 52, 52, 1) 32%, rgba(39, 39, 39, 1) 72%, rgba(29, 28, 28, 1) 100%);
   color: rgb(216, 216, 216);
-
 }
 
 .portfolio__title {
