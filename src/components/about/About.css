@@ -94,12 +94,14 @@
   }
 
   .about_content #about_text {
-    font-size: 18px;
+    font-size: 20px;
+    width: auto;
   }
 
 }
 
 @media all and (max-height: 550px) {
+
 
   .about_content #photo_me img {
     width: 120px;
