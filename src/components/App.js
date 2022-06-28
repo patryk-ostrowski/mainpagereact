@@ -32,11 +32,12 @@ class App extends Component {
 
 
   render(){
-    const {darkModeIsActive, language} = this.state
+    const {darkModeIsActive, language} = this.state;
+    const inputStyle = {content: `${language}`};
   return (
     <div className={darkModeIsActive ? "body__site--dark" : "body__site"}>
       <div id="up"></div>
-      <Menu changeColor={this.handleChangeDayNightMode} changeLanguage={this.handleChangeLanguage} darkmode={darkModeIsActive} lang={language} />
+      <Menu changeColor={this.handleChangeDayNightMode} changeLanguage={this.handleChangeLanguage} darkmode={darkModeIsActive} lang={language} inputStyle={inputStyle}/>
       <About darkmode={darkModeIsActive} lang={language}/>
       <Experience darkmode={darkModeIsActive} lang={language}/>
       <Portfolio darkmode={darkModeIsActive} lang={language}/>

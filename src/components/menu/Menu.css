@@ -7,7 +7,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 5vh;
+  height: 50px;
 }
 
 .menu_dark {
@@ -38,25 +38,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  height: 50px;
 }
 
 .menu__buttons--options {
-  width: 75px;
+  width: auto;
   padding-left: .7vh;
 }
 
 .menu__buttons--nav {
-  width: 30vw;
+  width: auto;
+}
 
+.menu__buttons--nav>a {
+  margin: 15px;
 }
 
 .menu__buttons--nav>a:first-child {
-  padding-left: 35px;
+  margin-left: 25px;
 }
 
 .menu__buttons--nav>a:last-child {
-  padding-right: 35px;
+  margin-right: 35px;
 }
 
 .menu button,
@@ -91,4 +94,71 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 46px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.menu_dark input {
+  border: 1px solid white;
+}
+
+input:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  color: white;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+input:checked:before {
+  background-color: white;
+  transform: translate(100%);
+  transition: all 0.5s;
+}
+
+@media all and (max-width: 1450px) {
+  .menu__buttons--nav>a {
+    margin: 10px;
+  }
+
+  .menu__buttons--nav>a:first-child {
+    margin-left: 15px;
+  }
+
+  .menu__buttons--nav>a:last-child {
+    margin-right: 15px;
+  }
+
+  .menu,
+  .menu_dark {
+    justify-content: center;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+  .menu__buttons--nav {
+    display: none;
+  }
+
 }

@@ -46,3 +46,56 @@
   margin-left: 50px;
   border-radius: 50%;
 }
+
+@media all and (max-width: 1750px) {
+  .about_content #photo_me img {
+    width: 200px;
+  }
+
+  .about_content #about_text {
+    padding: 40px;
+    width: 1000px;
+    font-size: 27px;
+  }
+}
+
+@media all and (max-width: 1450px) {
+  .about_content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_content #photo_me img {
+    margin-left: 0;
+    width: 200px;
+  }
+
+  .about_content #about_text {
+    width: 800px;
+  }
+}
+
+@media all and (max-width: 1150px) {
+
+  .about_content #about_text {
+    width: auto;
+    padding: 20px;
+    font-size: 22px;
+  }
+
+}
+
+@media all and (max-height: 550px) {
+
+  .about_content #photo_me img {
+    width: 120px;
+  }
+
+  .about_content #about_text {
+    font-size: 18px;
+  }
+
+}

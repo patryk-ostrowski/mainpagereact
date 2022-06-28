@@ -20,17 +20,21 @@ const MenuEn = () => (
   </>
 )
 
+const DayNightButton = (props) => (
+  <>
+    {props.darkmode ? <img id="sun" src={sun} alt="O" /> : <img id="moon" src={moon} alt="C" />}
+    <input type="checkbox" className="dayNightButton" onChange={props.changeColor} />
+  </>
+)
+
 const Menu = (props) => (
     <div className={props.darkmode? "menu_dark" : "menu"} id="menu">
       <div className="menu__buttons--options">
-        <button 
-          className="dayNightButton" 
-          onClick={props.changeColor}>{props.darkmode ? <img src={sun} alt="O" /> : <img src={moon} alt="C" />}
-        </button>
+        <DayNightButton changeColor={props.changeColor} darkmode={props.darkmode}/>
         <button 
           className="languageButton" 
           onClick={props.changeLanguage}>{props.lang === "pl" ? "EN" : "PL"}
-        </button>
+        </button> 
       </div>
       <div className="menu__buttons--nav">
         {props.lang === "pl"? <MenuPl/> : <MenuEn/>}
