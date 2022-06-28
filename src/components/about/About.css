@@ -81,7 +81,6 @@
 @media all and (max-width: 1150px) {
 
   .about_content #about_text {
-    width: auto;
     padding: 20px;
     font-size: 22px;
   }
