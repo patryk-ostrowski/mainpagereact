@@ -79,3 +79,21 @@
 .contact_dark a {
   color: rgb(216, 216, 216);
 }
+
+@media all and (max-width: 800px) {
+
+  .contact h2,
+  .contact_dark h2 {
+    font-size: 24px;
+  }
+
+  .contact__media img {
+    width: 48px;
+  }
+
+  .contact a,
+  .contact_dark a {
+    font-size: 18px;
+  }
+
+}
