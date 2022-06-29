@@ -14,10 +14,10 @@ const Contact = (props) => {
           <div className="contact__media">
             <a href="https://www.linkedin.com/in/patrykostrowski/"><img src={linkedin} alt="linkedin" /><p>LinkedIn</p></a>
             <a href="https://www.instagram.com/patrykostry/"><img src={instagram} alt="instagram" /><p>Instagram</p></a>
-            <a href="https://github.com/patryk-ostrowski/"><img src={github} alt="github" /><p>GitHub</p></a>
+            <a href="https://github.com/patryk-ostrowski/"><img src={github} alt="github" /><p>GitHub</p></a>  
         </div>
+        <div className="footer"><p>© 2022 Patryk Ostrowski</p></div>
       </div>
-      <div className="footer"><p>© 2022 Patryk Ostrowski</p></div>
     </section>
     
     </>

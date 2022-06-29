@@ -61,12 +61,11 @@
 }
 
 .footer {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 90vh;
+  margin-top: 100px;
 }
 
 .contact a,
@@ -109,14 +108,6 @@
 }
 
 @media all and (max-height: 740px) {
-  .footer {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100vh;
-  }
 
   .contact__content>img {
     width: 150px;
@@ -135,4 +126,32 @@
     font-size: 18px;
   }
 
+}
+
+@media all and (max-height: 600px) {
+
+  .contact__content>img {
+    width: 120px;
+  }
+
+  .contact h2,
+  .contact_dark h2 {
+    font-size: 20px;
+  }
+
+  .contact__media img {
+    width: 24px;
+  }
+
+  .contact__content p {
+    font-size: 18px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .contact__media {
+    flex-direction: row;
+  }
 }
