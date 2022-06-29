@@ -66,6 +66,7 @@
   align-items: center;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 5px;
 }
 
 .contact a,
@@ -149,6 +150,7 @@
 
   .footer {
     margin-top: 20px;
+
   }
 
   .contact__media {
