@@ -137,4 +137,10 @@
     height: 450px;
     margin: 40px;
   }
+
+  .portfolio p,
+  .portfolio_dark p {
+    text-align: center;
+  }
+
 }
