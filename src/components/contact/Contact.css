@@ -80,12 +80,7 @@
   color: rgb(216, 216, 216);
 }
 
-@media all and (max-width: 800px) {
-
-  .contact h2,
-  .contact_dark h2 {
-    font-size: 24px;
-  }
+@media all and (max-width: 1000px) {
 
   .contact__media img {
     width: 48px;
@@ -99,6 +94,45 @@
   .contact h2,
   .contact_dark h2 {
     font-size: 20px;
+  }
+
+  .contact__content>img {
+    width: 150px;
+  }
+
+  .contact,
+  .contact_dark {
+    height: auto;
+    padding-top: 70px;
+  }
+
+}
+
+@media all and (max-height: 740px) {
+  .footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+  }
+
+  .contact__content>img {
+    width: 150px;
+  }
+
+  .contact h2,
+  .contact_dark h2 {
+    font-size: 20px;
+  }
+
+  .contact__media img {
+    width: 48px;
+  }
+
+  .contact__content p {
+    font-size: 18px;
   }
 
 }

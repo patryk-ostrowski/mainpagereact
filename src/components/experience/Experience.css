@@ -142,3 +142,17 @@ ul>li {
   }
 
 }
+
+@media all and (max-height: 700px) {
+
+  .experience article:first-child,
+  .experience_dark article:first-child {
+    margin-top: 40px;
+  }
+
+  .experience__title {
+    width: 100vw;
+  }
+
+
+}
