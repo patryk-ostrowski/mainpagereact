@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mainpagereact/static/css/main.a6a89f33.css",
-    "main.js": "/mainpagereact/static/js/main.251924c0.js",
+    "main.css": "/mainpagereact/static/css/main.28b154c8.css",
+    "main.js": "/mainpagereact/static/js/main.723d8116.js",
     "static/media/cassino.jpg": "/mainpagereact/static/media/cassino.ee306ff12d8029cac151.jpg",
     "static/media/main--old.jpg": "/mainpagereact/static/media/main--old.bcdd94ea91252c84f7b4.jpg",
     "static/media/me.png": "/mainpagereact/static/media/me.21a9db1493f4a663865b.png",
@@ -12,11 +12,11 @@
     "static/media/html5.png": "/mainpagereact/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
     "static/media/js.png": "/mainpagereact/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/mainpagereact/index.html",
-    "main.a6a89f33.css.map": "/mainpagereact/static/css/main.a6a89f33.css.map",
-    "main.251924c0.js.map": "/mainpagereact/static/js/main.251924c0.js.map"
+    "main.28b154c8.css.map": "/mainpagereact/static/css/main.28b154c8.css.map",
+    "main.723d8116.js.map": "/mainpagereact/static/js/main.723d8116.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6a89f33.css",
-    "static/js/main.251924c0.js"
+    "static/css/main.28b154c8.css",
+    "static/js/main.723d8116.js"
   ]
 }
