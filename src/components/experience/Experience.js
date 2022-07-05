@@ -133,9 +133,8 @@ const ExperienceEn = () => (
         </div>
         <h2>React</h2>
           <ul>
-            <li>Building modules</li>
-            <li>Using props</li>
-            <li>React Router V6</li>
+            <li>React Router</li>
+            <li>React Hooks</li>
           </ul>
       </article>
     </div>
