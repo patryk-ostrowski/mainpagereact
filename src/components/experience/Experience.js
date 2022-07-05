@@ -54,9 +54,8 @@ const ExperiencePl = () => (
         </div>
         <h2>React</h2>
           <ul>
-            <li>Budowanie elementów strony za pomocą modułów</li>
-            <li>Przekazywanie elementów przez props</li>
-            <li>React Router V6</li>
+            <li>React Router</li>
+            <li>React Hooks</li>
           </ul>
       </article>
     </div>
