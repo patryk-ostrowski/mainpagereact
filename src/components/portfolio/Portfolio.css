@@ -136,4 +136,9 @@
     margin: 40px;
   }
 
+  .portfolio article p,
+  .portfolio_dark article p {
+    font-size: 16px;
+  }
+
 }
