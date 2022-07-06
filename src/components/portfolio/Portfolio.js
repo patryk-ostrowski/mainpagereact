@@ -24,7 +24,7 @@ const PortfolioPl = () => (
             <div className="portfolio__content--img">
               <img src={mainOld} alt="main-old" />
             </div>
-            <h2>Starsza wersja strony - wizytówki</h2>
+            <h2>Starsza wersja mojej strony</h2>
           </a>
           <ImageHtmlCssJs/>        
           <h3>Responsywność na smartfonie - w pionie i w poziomie</h3>
